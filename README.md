@@ -24,7 +24,7 @@ Usage
 
 Aftern installation, the command line options can be queried:
 ```
-dequantization.py -h
+dequantization_cli.py -h
 ```
 
 The code could be used as a library too, but it is tricky.

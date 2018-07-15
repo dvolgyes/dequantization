@@ -35,7 +35,7 @@ setup(
               'partial differential equations'],
     name='dequantization',
     packages=find_packages(where='.'),
-    scripts=['dequantization.py'],
+    scripts=['dequantization_cli.py'],
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
