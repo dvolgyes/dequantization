@@ -12,11 +12,11 @@ Releavant publications:
 
 
 from optparse import OptionParser
-from contracts import contract
 import imageio
 import skimage.measure
 from contracts import contract, new_contract
-import os, sys
+import os
+import sys
 
 
 new_contract('filename', os.path.isfile)
