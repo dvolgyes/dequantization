@@ -5,7 +5,7 @@ Travis:[![Build Status](https://travis-ci.org/dvolgyes/dequantization.svg?branch
 Coveralls:[![Coverage Status](https://coveralls.io/repos/github/dvolgyes/dequantization/badge.svg?branch=master)](https://coveralls.io/github/dvolgyes/dequantization?branch=master)
 Codecov:[![codecov](https://codecov.io/gh/dvolgyes/dequantization/branch/master/graph/badge.svg)](https://codecov.io/gh/dvolgyes/dequantization)
 
-The code is implemented in Python3, and requires Python3.5 or newer.
+The code is implemented in Python3, and requires Python3.6 or newer.
 
 
 Installation

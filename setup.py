@@ -42,5 +42,5 @@ setup(
     url='https://github.com/dvolgyes/dequantization',
     version=__version__,
     zip_safe=False,
-    python_requires='>=3.5',
+    python_requires='>=3.6',
 )
