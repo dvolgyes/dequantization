@@ -3,7 +3,7 @@
 default:
 	@echo "There is nothing to do."
 
-ci-test: example
+ci-test:
 	@python3 -m coverage run -a --source . tools/metrics.py
 	@python3 -m coverage run -a --source . tools/metrics.py -h
 	@python3 -m coverage run -a --source . tools/data.py
