@@ -1,0 +1,26 @@
+language: python
+
+matrix:
+    include:
+        - os: linux
+          dist: trusty
+          sudo: required
+          python: 3.5
+        - os: linux
+          dist: trusty
+          sudo: required
+          python: 3.6
+
+install:
+    - pip install --upgrade pip setuptools wheel
+    - pip install coveralls codecov pyflakes
+    - pip install -r requirements.txt
+    - pip install numba
+    - pip install git+https://github.com/dvolgyes/dequantization
+
+script:
+  - make ci-test
+
+after_success:
+  - coveralls
+  - codecov
